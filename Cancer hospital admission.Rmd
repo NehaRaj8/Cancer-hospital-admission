@@ -481,7 +481,8 @@ In this exploratory data analysis, the data used was from an open source. There 
 While plotting box plots for all the health board for year 2018 it is evident that except few health boards the interquartile range was almost same as its median value. These few data had lots of repetitions, which was eluded by using the unique() function. 
 Since there was lots of repetition of same data and very few data point, visualizing any health board in any particular year would not sketch correct interpretation.
 The choice of Grampian health board for detailed analysis and visualization is partly because it has considerable data within interquartile range which is missing in many other health boards like fife, Shetland, and Orkney. From the given data a scatter plot for these Health Board would not be very meaningful.
-Visualizing the trend of cancer registration for all the health board is very interesting and informative. Lots of information can be presented in a very simple way to wider audience in a very interactive way. Like the use of tooltip in scatter plot gives specific information of one date point when hovered over. The colour scheme provided by viridis package eliminates the colour blindness issue.
+Visualizing the trend of cancer registration for all the health board is very interesting and informative. Lots of information can be
+presented in a very simple way to wider audience in a very interactive way. Like the use of tooltip in scatter plot gives specific information of one date point when hovered over. The colour scheme provided by viridis package eliminates the colour blindness issue.
 The Data acquired is from 2003 to 2018 but it would be interesting to know how pandemic of 2020 has impacted the cancer registration in all the health board.
 
 
